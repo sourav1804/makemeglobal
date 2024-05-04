@@ -1,0 +1,21 @@
+.tree-node {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tree-node input {
+  margin-right: 10px;
+}
+
+.line {
+  position: absolute;
+  border-left: 1px solid #000;
+}
+
+.children {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 100px;
+}
